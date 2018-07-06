@@ -14,6 +14,5 @@ export class HeadlineHalfComponent implements OnInit {
   
   @Input('header') header : string;
   @Input('sub-header') subHeader : string;
-  @Input('background-color') backgroundColor : string;
-  @Input('text-color') textColor: string;
+  @Input('link') link : string;
 }
