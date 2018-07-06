@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "j4-game-studios/dist/j4-game-studios",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
